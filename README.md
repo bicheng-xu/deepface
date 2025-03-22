@@ -55,7 +55,7 @@ Alternatively, you can also install deepface from its source code. Source code m
 ```shell
 $ git clone https://github.com/serengil/deepface.git
 $ cd deepface
-$ export DEEPFACE_HOME=pwd
+$ export DEEPFACE_HOME=$(pwd)
 $ pip install -e .
 ```
 
