@@ -50,11 +50,12 @@ The easiest way to install deepface is to download it from [`PyPI`](https://pypi
 $ pip install deepface
 ```
 
-Alternatively, you can also install deepface from its source code. Source code may have new features not published in pip release yet.
+Alternatively, you can also install deepface from its source code. Source code may have new features not published in pip release yet. (bash)
 
 ```shell
 $ git clone https://github.com/serengil/deepface.git
 $ cd deepface
+$ export DEEPFACE_HOME=pwd
 $ pip install -e .
 ```
 
