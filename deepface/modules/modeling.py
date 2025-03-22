@@ -83,6 +83,7 @@ def build_model(task: str, model_name: str) -> Any:
             "yolov11n": YoloFaceDetector.YoloDetectorClientV11n,
             "yolov11s": YoloFaceDetector.YoloDetectorClientV11s,
             "yolov11m": YoloFaceDetector.YoloDetectorClientV11m,
+            "yolov11l": YoloFaceDetector.YoloDetectorClientV11l,
             "yunet": YuNet.YuNetClient,
             "fastmtcnn": FastMtCnn.FastMtCnnClient,
             "centerface": CenterFace.CenterFaceClient,
